@@ -32,7 +32,7 @@ const prisma = new PrismaClient();
 const corsOptions = {
   origin: [
     "http://localhost:3000",
-    "https://gs-exp-next.vercel.app",  // あなたの Vercel URL
+    "https://gs-exp-next-nc2h.vercel.app/",  // あなたの Vercel URL
     // 他の Vercel URL がある場合は追加
   ],
   credentials: true,
